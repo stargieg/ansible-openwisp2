@@ -150,6 +150,14 @@ server's hostname if you desire.
 Substitute ``openwisp2@openwisp2.mydomain.com`` with what you deem most
 appropriate as default sender for emails sent by OpenWISP 2.
 
+IPv6 on nginx is disabled by default. However, it is a good idea to use it.
+
+.. code-block:: yaml
+
+      vars:
+        openwisp2_nginx_ipv6: true
+
+
 .. _ansible_run_playbook:
 
 Run the Playbook
